@@ -79,7 +79,7 @@ header {
 }
 
 .subheader-info-left {
-    font-weight: bold;
+
     font-size: 32px;
     height: 100%;
     display: flex;
@@ -103,13 +103,15 @@ header {
 }
 
 .subheader-info-left .pcStyle {
-    font-weight: bold;
-    font-size: 24px;
+
+    font-size: 18px;
+    letter-spacing: 5px;
 }
 
 .sub-header p {
-    line-height: 1.8;
-    font-size: 20px;
+    margin-top: 10px;
+    line-height: 2;
+    font-size: 17px;
 }
 
 a {
@@ -119,6 +121,14 @@ a {
     font-weight: 500;
     margin-left: 25px;
     /* border-right: 1px solid red; */
+}
+
+.subheader-info-left button {
+    margin-top: 10px;
+    color: #425774;
+    padding: 10px;
+    font-weight: bold;
+
 }
 
 .the-team {
