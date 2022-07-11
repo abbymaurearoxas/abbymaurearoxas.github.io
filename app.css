@@ -1,0 +1,68 @@
+* {
+    margin: 0
+}
+
+.navLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-header {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: stretch; */
+    margin-top: 100px;
+    flex: 1;
+
+
+}
+
+header {
+    background-color: #425774;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+
+.subheader-info {
+    /* background-color: green; */
+
+
+    /* flex-grow makes them equal spaces in the width */
+    flex: 1;
+}
+
+.subheader-info .subheader-info-left {
+    flex-grow: 1;
+}
+
+.subheader-info .subheader-info-right {
+    background-color: #FDE581;
+    color: black;
+    /* height helps it to set everything to be equal height and width */
+    height: 100%;
+
+}
+
+.logoClass {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subheader-info-left {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.subheader-info-left .pcStyle {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sub-header p {
+    line-height: 1.8;
+    font-size: 20px;
+}
